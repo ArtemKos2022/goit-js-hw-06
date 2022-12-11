@@ -8,4 +8,4 @@ const onGetcolor = () => {
   body.style.backgroundColor = getRandomHexColor();
   colorCode.textContent = getRandomHexColor();
 };
-colorChangerBtn.addEventListener('click', onGetcolor);
+colorChangerBtn.addEventListener('click', onGetColor);
